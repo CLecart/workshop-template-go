@@ -65,3 +65,4 @@ go run main.go
 # Run the unit tests
 go test -v ./...
 ```
+# workshop-template-go
