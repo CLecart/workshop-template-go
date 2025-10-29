@@ -14,7 +14,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
-          go-version: "go1.22" # adapte selon ta version
+          go-version: "stable" # adapte selon ta version
 
       - name: Run tests
         run: go test -v ./src/tests/
